@@ -1,0 +1,17 @@
+{
+ "pair": "qwen2.5-1.5b",
+ "head": "L22H6",
+ "dtype": "float16",
+ "n": 2500,
+ "prompts": "prompts/prompts_european.csv",
+ "per_lang": null,
+ "skip_screen": false,
+ "same_ids": true,
+ "bs": 250,
+ "chat_example": "<|im_start|>user\nThe weather today is very<|im_end|>\n<|im_start|>assistant\n",
+ "formats": [
+  "raw",
+  "chat",
+  "chat+system"
+ ]
+}

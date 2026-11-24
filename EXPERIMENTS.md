@@ -977,6 +977,20 @@ results/RESULTS.md is the running log with the full tables; this file is the sho
   whole-only count still keeps 47% and 43% against 9-10% on FLORES, so scoring does not explain it there. Qwen2.5-7B's
   sentence-level FLORES value is not used: its ablated continuations are mostly Chinese, which the word count drops.
 
+### 13c. Checkpoint x input format for the seven FLORES-selected heads
+
+- Why: the base-checkpoint comparison changes checkpoint and input format together, and Qwen2.5's template adds a
+  default system prompt that alone halves L22H6's effect. Only Qwen2.5-1.5B was crossed before, without that control.
+- What / how: each head zeroed in its base and instruct checkpoints on the 2,500 FLORES prompts, as raw text, in the
+  chat template without a system turn, and (Qwen2.5) with the default system prompt; same token ids and precision in
+  every cell (format_grid_plan.md).
+- When / where: 2026-11-25; results/format-grid (per pair and summary.md).
+- Code: format_grid.py.
+- Result so far (Qwen2.5-1.5B L22H6, c->w base / instruct): raw 0.151 / 0.176; chat without system 0.108 / 0.259;
+  chat with the default system prompt 0.090 / 0.500. The existing cells are reproduced within 0.001. With the system
+  prompt controlled, the instruct checkpoint still has the larger effect in the chat format, and the system prompt
+  widens the gap. Other pairs pending.
+
 ## What the results support and what they do not
 
 Supported so far:
