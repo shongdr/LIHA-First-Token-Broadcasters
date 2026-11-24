@@ -945,6 +945,20 @@ results/RESULTS.md is the running log with the full tables; this file is the sho
 
 - Nothing, as of 2026-10-12 22:11 KST.
 
+## 13. Added for the ARR response (2026-11)
+
+### 13a. Top-ranked heads ablated together in the 1-7B models
+
+- Why: a reviewer asks whether the selected head is only a bottleneck in a larger multi-head circuit. The revision
+  tests head sets in six 8B-14B models; this runs the same protocol on the ten 1-7B models of the main analysis.
+- What / how: the top 1, 2 and 4 eligible heads of each model's LCB screen, zero- and mean-ablated together, against
+  five layer-matched random sets per k, on the LCB prompts outside the screen; checks on the other task, English and
+  dNLL. Rankings, sets and readings were fixed before the full runs (joint_heads_plan.md).
+- When / where: plans 2026-11-25 (results/<model>-joint/plan.json, plan.md); full runs not yet done. Outputs go to
+  out/<model>-joint and then results/<model>-joint.
+- Code: joint_heads.py, joint_heads_queue.sh.
+- Result: pending.
+
 ## What the results support and what they do not
 
 Supported so far:
