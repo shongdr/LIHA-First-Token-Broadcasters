@@ -189,7 +189,11 @@ def report(a):
         if not (out / "labels.json").exists():
             continue
         meta = json.load(open(out / "meta.json", encoding="utf-8"))
-        expected = [r["language"] for r in csv.DictReader(open(out / "prompts.csv", encoding="utf-8"))]
+        if (out / "prompts.csv").exists():
+            expected = [r["language"] for r in csv.DictReader(open(out / "prompts.csv", encoding="utf-8"))]
+        else:  # results/ keeps no copy of the prompts; rebuild them from the file named in meta.json
+            expected = [r["language"] for r in read_rows(meta["prompts"], meta["per_lang"], meta["skip_screen"])]
+        assert len(expected) == meta["n"]
         lab = json.load(open(out / "labels.json", encoding="utf-8"))
         non_en = [i for i, e in enumerate(expected) if e != "en"]
         head = meta["head"]

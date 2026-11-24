@@ -1,0 +1,40 @@
+{
+ "qwen2.5-1.5b": {
+  "raw": {
+   "base": {
+    "keep": 0.984,
+    "c2w": 0.1512,
+    "ctrl": null
+   },
+   "instruct": {
+    "keep": 0.911,
+    "c2w": 0.176,
+    "ctrl": null
+   }
+  },
+  "chat": {
+   "base": {
+    "keep": 0.9125,
+    "c2w": 0.1084,
+    "ctrl": null
+   },
+   "instruct": {
+    "keep": 0.982,
+    "c2w": 0.2588,
+    "ctrl": null
+   }
+  },
+  "chat+system": {
+   "base": {
+    "keep": 0.984,
+    "c2w": 0.09,
+    "ctrl": null
+   },
+   "instruct": {
+    "keep": 0.902,
+    "c2w": 0.5004,
+    "ctrl": null
+   }
+  }
+ }
+}
