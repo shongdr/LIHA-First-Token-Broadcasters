@@ -1,0 +1,701 @@
+{
+ "qwen-instruct-lcb|L22H6|monolingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 796,
+  "dLPR_pooled": -0.27261306532663315,
+  "base_pass": 784,
+  "new_fail": 224,
+  "new_mixed": 78,
+  "new_whole": 146,
+  "new_unscored": 1,
+  "mixed_share": 0.3482142857142857,
+  "whole_to": {
+   "es": 89,
+   "several": 31,
+   "en": 12,
+   "pt": 10,
+   "fr": 3,
+   "ceb": 1
+  }
+ },
+ "qwen-instruct-lcb|L22H6|monolingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 796,
+  "dLPR_pooled": -0.24623115577889448,
+  "base_pass": 784,
+  "new_fail": 203,
+  "new_mixed": 51,
+  "new_whole": 152,
+  "new_unscored": 1,
+  "mixed_share": 0.2512315270935961,
+  "whole_to": {
+   "es": 133,
+   "en": 11,
+   "several": 5,
+   "fr": 3
+  }
+ },
+ "qwen-instruct-lcb|L22H6|crosslingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1181,
+  "dLPR_pooled": -0.2760372565622354,
+  "base_pass": 838,
+  "new_fail": 338,
+  "new_mixed": 28,
+  "new_whole": 310,
+  "new_unscored": 4,
+  "mixed_share": 0.08284023668639054,
+  "whole_to": {
+   "en": 147,
+   "es": 111,
+   "fr": 28,
+   "several": 15,
+   "pt": 9
+  }
+ },
+ "qwen-instruct-lcb|L22H6|crosslingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1181,
+  "dLPR_pooled": -0.2472480948348857,
+  "base_pass": 838,
+  "new_fail": 304,
+  "new_mixed": 15,
+  "new_whole": 289,
+  "new_unscored": 4,
+  "mixed_share": 0.049342105263157895,
+  "whole_to": {
+   "es": 137,
+   "en": 124,
+   "fr": 26,
+   "several": 2
+  }
+ },
+ "qwen2.5-3b-instruct-lcb|L27H13|monolingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 778,
+  "dLPR_pooled": -0.5372750642673522,
+  "base_pass": 783,
+  "new_fail": 422,
+  "new_mixed": 181,
+  "new_whole": 241,
+  "new_unscored": 19,
+  "mixed_share": 0.42890995260663506,
+  "whole_to": {
+   "es": 113,
+   "several": 41,
+   "en": 39,
+   "pt": 38,
+   "ru": 6,
+   "fr": 4
+  }
+ },
+ "qwen2.5-3b-instruct-lcb|L27H13|monolingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 798,
+  "dLPR_pooled": -0.40852130325814534,
+  "base_pass": 783,
+  "new_fail": 333,
+  "new_mixed": 172,
+  "new_whole": 161,
+  "new_unscored": 0,
+  "mixed_share": 0.5165165165165165,
+  "whole_to": {
+   "es": 89,
+   "several": 33,
+   "fr": 22,
+   "pt": 12,
+   "en": 5
+  }
+ },
+ "qwen2.5-3b-instruct-lcb|L27H13|crosslingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1175,
+  "dLPR_pooled": -0.4493617021276596,
+  "base_pass": 1052,
+  "new_fail": 531,
+  "new_mixed": 153,
+  "new_whole": 378,
+  "new_unscored": 6,
+  "mixed_share": 0.288135593220339,
+  "whole_to": {
+   "en": 253,
+   "es": 62,
+   "several": 34,
+   "pt": 23,
+   "fr": 5,
+   "zh": 1
+  }
+ },
+ "qwen2.5-3b-instruct-lcb|L27H13|crosslingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1177,
+  "dLPR_pooled": -0.33050127442650806,
+  "base_pass": 1052,
+  "new_fail": 395,
+  "new_mixed": 151,
+  "new_whole": 244,
+  "new_unscored": 4,
+  "mixed_share": 0.3822784810126582,
+  "whole_to": {
+   "en": 125,
+   "es": 77,
+   "several": 20,
+   "fr": 15,
+   "pt": 5,
+   "zh": 1,
+   "ia": 1
+  }
+ },
+ "qwen3-1.7b-instruct-lcb|L18H12|monolingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 797,
+  "dLPR_pooled": -0.1493099121706399,
+  "base_pass": 787,
+  "new_fail": 124,
+  "new_mixed": 70,
+  "new_whole": 54,
+  "new_unscored": 0,
+  "mixed_share": 0.5645161290322581,
+  "whole_to": {
+   "en": 31,
+   "es": 13,
+   "pt": 6,
+   "several": 3,
+   "it": 1
+  }
+ },
+ "qwen3-1.7b-instruct-lcb|L18H12|monolingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 795,
+  "dLPR_pooled": -0.06666666666666667,
+  "base_pass": 787,
+  "new_fail": 58,
+  "new_mixed": 41,
+  "new_whole": 17,
+  "new_unscored": 2,
+  "mixed_share": 0.7068965517241379,
+  "whole_to": {
+   "fr": 8,
+   "es": 5,
+   "it": 4
+  }
+ },
+ "qwen3-1.7b-instruct-lcb|L18H12|crosslingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1172,
+  "dLPR_pooled": -0.507679180887372,
+  "base_pass": 973,
+  "new_fail": 602,
+  "new_mixed": 59,
+  "new_whole": 543,
+  "new_unscored": 5,
+  "mixed_share": 0.09800664451827243,
+  "whole_to": {
+   "en": 536,
+   "several": 5,
+   "pt": 1,
+   "es": 1
+  }
+ },
+ "qwen3-1.7b-instruct-lcb|L18H12|crosslingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1172,
+  "dLPR_pooled": -0.23037542662116042,
+  "base_pass": 973,
+  "new_fail": 285,
+  "new_mixed": 31,
+  "new_whole": 254,
+  "new_unscored": 4,
+  "mixed_share": 0.10877192982456141,
+  "whole_to": {
+   "en": 239,
+   "fr": 5,
+   "it": 3,
+   "several": 3,
+   "es": 2,
+   "pt": 1,
+   "unknown": 1
+  }
+ },
+ "gemma3-1b-instruct-lcb|L11H3|monolingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 799,
+  "dLPR_pooled": -0.6282853566958698,
+  "base_pass": 786,
+  "new_fail": 507,
+  "new_mixed": 263,
+  "new_whole": 244,
+  "new_unscored": 0,
+  "mixed_share": 0.5187376725838264,
+  "whole_to": {
+   "en": 154,
+   "ru": 40,
+   "several": 32,
+   "pt": 10,
+   "de": 4,
+   "pl": 1,
+   "it": 1,
+   "es": 1,
+   "bs": 1
+  }
+ },
+ "gemma3-1b-instruct-lcb|L11H3|monolingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 799,
+  "dLPR_pooled": -0.24405506883604505,
+  "base_pass": 786,
+  "new_fail": 201,
+  "new_mixed": 128,
+  "new_whole": 73,
+  "new_unscored": 0,
+  "mixed_share": 0.6368159203980099,
+  "whole_to": {
+   "it": 21,
+   "several": 19,
+   "es": 15,
+   "pt": 8,
+   "fr": 7,
+   "de": 2,
+   "en": 1
+  }
+ },
+ "gemma3-1b-instruct-lcb|L11H3|crosslingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1159,
+  "dLPR_pooled": -0.090595340811044,
+  "base_pass": 137,
+  "new_fail": 117,
+  "new_mixed": 27,
+  "new_whole": 90,
+  "new_unscored": 8,
+  "mixed_share": 0.23076923076923078,
+  "whole_to": {
+   "en": 85,
+   "several": 5
+  }
+ },
+ "gemma3-1b-instruct-lcb|L11H3|crosslingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1171,
+  "dLPR_pooled": -0.09222886421861656,
+  "base_pass": 137,
+  "new_fail": 112,
+  "new_mixed": 33,
+  "new_whole": 79,
+  "new_unscored": 1,
+  "mixed_share": 0.29464285714285715,
+  "whole_to": {
+   "en": 78,
+   "es": 1
+  }
+ },
+ "olmo2-1b-instruct-lcb|L12H8|monolingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 794,
+  "dLPR_pooled": -0.27204030226700254,
+  "base_pass": 785,
+  "new_fail": 218,
+  "new_mixed": 92,
+  "new_whole": 126,
+  "new_unscored": 4,
+  "mixed_share": 0.42201834862385323,
+  "whole_to": {
+   "en": 101,
+   "fr": 13,
+   "es": 7,
+   "several": 5
+  }
+ },
+ "olmo2-1b-instruct-lcb|L12H8|monolingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 796,
+  "dLPR_pooled": -0.12814070351758794,
+  "base_pass": 785,
+  "new_fail": 108,
+  "new_mixed": 65,
+  "new_whole": 43,
+  "new_unscored": 2,
+  "mixed_share": 0.6018518518518519,
+  "whole_to": {
+   "en": 15,
+   "es": 12,
+   "fr": 10,
+   "several": 5,
+   "pt": 1
+  }
+ },
+ "olmo2-1b-instruct-lcb|L12H8|crosslingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1176,
+  "dLPR_pooled": -0.33503401360544216,
+  "base_pass": 1102,
+  "new_fail": 400,
+  "new_mixed": 177,
+  "new_whole": 223,
+  "new_unscored": 5,
+  "mixed_share": 0.4425,
+  "whole_to": {
+   "en": 188,
+   "several": 16,
+   "fr": 15,
+   "es": 2,
+   "unknown": 1,
+   "cs": 1
+  }
+ },
+ "olmo2-1b-instruct-lcb|L12H8|crosslingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1179,
+  "dLPR_pooled": -0.1433418150975403,
+  "base_pass": 1102,
+  "new_fail": 183,
+  "new_mixed": 125,
+  "new_whole": 58,
+  "new_unscored": 2,
+  "mixed_share": 0.6830601092896175,
+  "whole_to": {
+   "fr": 21,
+   "en": 19,
+   "es": 10,
+   "several": 5,
+   "unknown": 2,
+   "cs": 1
+  }
+ },
+ "llama3.2-1b-instruct-lcb|L8H25|monolingual|zero": {
+  "selected_on": "LCB",
+  "n_nonen": 800,
+  "n_both": 798,
+  "dLPR_pooled": -0.016290726817042606,
+  "base_pass": 795,
+  "new_fail": 15,
+  "new_mixed": 10,
+  "new_whole": 5,
+  "new_unscored": 0,
+  "mixed_share": 0.6666666666666666,
+  "whole_to": {
+   "es": 3,
+   "pt": 2
+  }
+ },
+ "llama3.2-1b-instruct-lcb|L8H25|monolingual|mean": {
+  "selected_on": "LCB",
+  "n_nonen": 800,
+  "n_both": 798,
+  "dLPR_pooled": -0.015037593984962405,
+  "base_pass": 795,
+  "new_fail": 14,
+  "new_mixed": 10,
+  "new_whole": 4,
+  "new_unscored": 0,
+  "mixed_share": 0.7142857142857143,
+  "whole_to": {
+   "several": 1,
+   "es": 1,
+   "pt": 1,
+   "fr": 1
+  }
+ },
+ "llama3.2-1b-instruct-lcb|L8H25|crosslingual|zero": {
+  "selected_on": "LCB",
+  "n_nonen": 1196,
+  "n_both": 1190,
+  "dLPR_pooled": -0.7109243697478992,
+  "base_pass": 1043,
+  "new_fail": 846,
+  "new_mixed": 34,
+  "new_whole": 812,
+  "new_unscored": 1,
+  "mixed_share": 0.04018912529550828,
+  "whole_to": {
+   "en": 788,
+   "several": 24
+  }
+ },
+ "llama3.2-1b-instruct-lcb|L8H25|crosslingual|mean": {
+  "selected_on": "LCB",
+  "n_nonen": 1196,
+  "n_both": 1189,
+  "dLPR_pooled": -0.3566021867115223,
+  "base_pass": 1043,
+  "new_fail": 429,
+  "new_mixed": 57,
+  "new_whole": 372,
+  "new_unscored": 2,
+  "mixed_share": 0.13286713286713286,
+  "whole_to": {
+   "en": 355,
+   "several": 15,
+   "fr": 2
+  }
+ },
+ "olmo3-7b-instruct-lcb|L14H25|monolingual|zero": {
+  "selected_on": "not counted",
+  "n_nonen": 800,
+  "n_both": 800,
+  "dLPR_pooled": -0.04125,
+  "base_pass": 780,
+  "new_fail": 46,
+  "new_mixed": 30,
+  "new_whole": 16,
+  "new_unscored": 0,
+  "mixed_share": 0.6521739130434783,
+  "whole_to": {
+   "en": 15,
+   "several": 1
+  }
+ },
+ "olmo3-7b-instruct-lcb|L14H25|monolingual|mean": {
+  "selected_on": "not counted",
+  "n_nonen": 800,
+  "n_both": 800,
+  "dLPR_pooled": 0.00125,
+  "base_pass": 780,
+  "new_fail": 14,
+  "new_mixed": 14,
+  "new_whole": 0,
+  "new_unscored": 0,
+  "mixed_share": 1.0,
+  "whole_to": {}
+ },
+ "olmo3-7b-instruct-lcb|L14H25|crosslingual|zero": {
+  "selected_on": "not counted",
+  "n_nonen": 1196,
+  "n_both": 1173,
+  "dLPR_pooled": -0.017902813299232736,
+  "base_pass": 1034,
+  "new_fail": 53,
+  "new_mixed": 35,
+  "new_whole": 18,
+  "new_unscored": 3,
+  "mixed_share": 0.660377358490566,
+  "whole_to": {
+   "en": 17,
+   "several": 1
+  }
+ },
+ "olmo3-7b-instruct-lcb|L14H25|crosslingual|mean": {
+  "selected_on": "not counted",
+  "n_nonen": 1196,
+  "n_both": 1175,
+  "dLPR_pooled": 0.015319148936170212,
+  "base_pass": 1034,
+  "new_fail": 20,
+  "new_mixed": 19,
+  "new_whole": 1,
+  "new_unscored": 1,
+  "mixed_share": 0.95,
+  "whole_to": {
+   "en": 1
+  }
+ },
+ "gemma3-4b-instruct-lcb|L24H0|monolingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 798,
+  "dLPR_pooled": -0.2593984962406015,
+  "base_pass": 793,
+  "new_fail": 212,
+  "new_mixed": 138,
+  "new_whole": 74,
+  "new_unscored": 2,
+  "mixed_share": 0.6509433962264151,
+  "whole_to": {
+   "es": 33,
+   "several": 17,
+   "pt": 16,
+   "en": 8
+  }
+ },
+ "gemma3-4b-instruct-lcb|L24H0|monolingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 798,
+  "dLPR_pooled": -0.12030075187969924,
+  "base_pass": 793,
+  "new_fail": 100,
+  "new_mixed": 92,
+  "new_whole": 8,
+  "new_unscored": 2,
+  "mixed_share": 0.92,
+  "whole_to": {
+   "es": 8
+  }
+ },
+ "gemma3-4b-instruct-lcb|L24H0|crosslingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1185,
+  "dLPR_pooled": -0.10717299578059072,
+  "base_pass": 156,
+  "new_fail": 127,
+  "new_mixed": 63,
+  "new_whole": 64,
+  "new_unscored": 0,
+  "mixed_share": 0.49606299212598426,
+  "whole_to": {
+   "en": 47,
+   "several": 12,
+   "es": 5
+  }
+ },
+ "gemma3-4b-instruct-lcb|L24H0|crosslingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1188,
+  "dLPR_pooled": -0.05303030303030303,
+  "base_pass": 156,
+  "new_fail": 65,
+  "new_mixed": 47,
+  "new_whole": 18,
+  "new_unscored": 0,
+  "mixed_share": 0.7230769230769231,
+  "whole_to": {
+   "en": 16,
+   "several": 1,
+   "es": 1
+  }
+ },
+ "qwen2.5-7b-instruct-lcb|L19H1|monolingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 799,
+  "dLPR_pooled": -0.008760951188986232,
+  "base_pass": 787,
+  "new_fail": 14,
+  "new_mixed": 10,
+  "new_whole": 4,
+  "new_unscored": 0,
+  "mixed_share": 0.7142857142857143,
+  "whole_to": {
+   "en": 3,
+   "zh": 1
+  }
+ },
+ "qwen2.5-7b-instruct-lcb|L19H1|monolingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 800,
+  "n_both": 799,
+  "dLPR_pooled": 0.0025031289111389237,
+  "base_pass": 787,
+  "new_fail": 4,
+  "new_mixed": 4,
+  "new_whole": 0,
+  "new_unscored": 0,
+  "mixed_share": 1.0,
+  "whole_to": {}
+ },
+ "qwen2.5-7b-instruct-lcb|L19H1|crosslingual|zero": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1179,
+  "dLPR_pooled": -0.0737913486005089,
+  "base_pass": 1123,
+  "new_fail": 91,
+  "new_mixed": 37,
+  "new_whole": 54,
+  "new_unscored": 1,
+  "mixed_share": 0.4065934065934066,
+  "whole_to": {
+   "en": 52,
+   "sr": 1,
+   "zh": 1
+  }
+ },
+ "qwen2.5-7b-instruct-lcb|L19H1|crosslingual|mean": {
+  "selected_on": "FLORES",
+  "n_nonen": 1196,
+  "n_both": 1180,
+  "dLPR_pooled": -0.03474576271186441,
+  "base_pass": 1123,
+  "new_fail": 47,
+  "new_mixed": 24,
+  "new_whole": 23,
+  "new_unscored": 0,
+  "mixed_share": 0.5106382978723404,
+  "whole_to": {
+   "en": 23
+  }
+ },
+ "llama3.2-3b-instruct-lcb-top|L13H19|monolingual|zero": {
+  "selected_on": "LCB",
+  "n_nonen": 800,
+  "n_both": 800,
+  "dLPR_pooled": 0.0,
+  "base_pass": 794,
+  "new_fail": 4,
+  "new_mixed": 4,
+  "new_whole": 0,
+  "new_unscored": 0,
+  "mixed_share": 1.0,
+  "whole_to": {}
+ },
+ "llama3.2-3b-instruct-lcb-top|L13H19|monolingual|mean": {
+  "selected_on": "LCB",
+  "n_nonen": 800,
+  "n_both": 800,
+  "dLPR_pooled": -0.005,
+  "base_pass": 794,
+  "new_fail": 6,
+  "new_mixed": 5,
+  "new_whole": 1,
+  "new_unscored": 0,
+  "mixed_share": 0.8333333333333334,
+  "whole_to": {
+   "it": 1
+  }
+ },
+ "llama3.2-3b-instruct-lcb-top|L13H19|crosslingual|zero": {
+  "selected_on": "LCB",
+  "n_nonen": 1196,
+  "n_both": 1184,
+  "dLPR_pooled": -0.33530405405405406,
+  "base_pass": 1086,
+  "new_fail": 403,
+  "new_mixed": 92,
+  "new_whole": 311,
+  "new_unscored": 6,
+  "mixed_share": 0.228287841191067,
+  "whole_to": {
+   "en": 292,
+   "several": 18,
+   "fr": 1
+  }
+ },
+ "llama3.2-3b-instruct-lcb-top|L13H19|crosslingual|mean": {
+  "selected_on": "LCB",
+  "n_nonen": 1196,
+  "n_both": 1183,
+  "dLPR_pooled": -0.2502113271344041,
+  "base_pass": 1086,
+  "new_fail": 306,
+  "new_mixed": 84,
+  "new_whole": 222,
+  "new_unscored": 7,
+  "mixed_share": 0.27450980392156865,
+  "whole_to": {
+   "en": 211,
+   "several": 11
+  }
+ }
+}

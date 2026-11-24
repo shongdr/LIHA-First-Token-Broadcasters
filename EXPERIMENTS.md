@@ -959,6 +959,24 @@ results/RESULTS.md is the running log with the full tables; this file is the sho
 - Code: joint_heads.py, joint_heads_queue.sh.
 - Result: pending.
 
+### 13b. Why mean ablation keeps the LCB drop but not the FLORES effect
+
+- Why: a reviewer asks why mean ablation keeps little of the FLORES effect in four models (Qwen2.5-7B, Qwen3-1.7B,
+  Gemma-3-1B and 4B) but 39-47% of their LCB drop. LCB fails a reply if any scored line is in another language,
+  whereas FLORES c->w gives each continuation one label, so mixed outputs count only on LCB.
+- What / how: post hoc, from saved outputs; nothing is regenerated. LCB: each new failure under zero and mean ablation
+  (a baseline pass that fails) split into mixed (some lines in the expected language) and whole (none). FLORES: the
+  section 10 continuations rescored sentence by sentence (segments of 4+ words, langdetect seed 0), LCB-like.
+- When / where: 2026-11-25; results/rescore-mixed (SUMMARY.md, lcb_split.md, flores_sentences.md). The recomputed
+  LCB changes match the runs' summary.json.
+- Code: rescore_mixed_lcb.py, rescore_flores_sentences.py, rescore_summary.py.
+- Reading: the four models split in two. In both Gemma models most mean-ablation failures on LCB are mixed (92 of
+  100 in Gemma-3-4B, 128 of 201 in Gemma-3-1B); counting only wholly wrong replies, LCB keeps 11% and 30% of the
+  zero-ablation failures, close to FLORES (5% and 22% with one label, 17% and 29% sentence by sentence). In Qwen3-1.7B
+  and Qwen2.5-7B (crosslingual) many mean-ablation failures are entirely in English (254 of 285, 23 of 47), and the
+  whole-only count still keeps 47% and 43% against 9-10% on FLORES, so scoring does not explain it there. Qwen2.5-7B's
+  sentence-level FLORES value is not used: its ablated continuations are mostly Chinese, which the word count drops.
+
 ## What the results support and what they do not
 
 Supported so far:

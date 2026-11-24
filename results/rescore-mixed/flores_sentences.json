@@ -1,0 +1,114 @@
+{
+ "qwen-instruct": {
+  "zero": {
+   "c2w_single": 0.5008,
+   "c2w_strict": 0.5046018407362945,
+   "n_both": 2499,
+   "new_mixed": 76,
+   "new_whole": 1185
+  },
+  "mean of all prompt tokens (follow-up)": {
+   "c2w_single": 0.4508,
+   "c2w_strict": 0.45294353223868644,
+   "n_both": 2497,
+   "new_mixed": 72,
+   "new_whole": 1059
+  }
+ },
+ "qwen2.5-3b-instruct": {
+  "zero": {
+   "c2w_single": 0.5152,
+   "c2w_strict": 0.48885857207821737,
+   "n_both": 2199,
+   "new_mixed": 186,
+   "new_whole": 889
+  },
+  "mean of all prompt tokens (follow-up)": {
+   "c2w_single": 0.3384,
+   "c2w_strict": 0.37352821762078764,
+   "n_both": 2463,
+   "new_mixed": 232,
+   "new_whole": 688
+  }
+ },
+ "qwen2.5-7b-instruct": {
+  "zero": {
+   "c2w_single": 0.202,
+   "c2w_strict": 0.04132231404958678,
+   "n_both": 2057,
+   "new_mixed": 39,
+   "new_whole": 46
+  },
+  "mean of all prompt tokens (follow-up)": {
+   "c2w_single": 0.0208,
+   "c2w_strict": 0.027957860615883307,
+   "n_both": 2468,
+   "new_mixed": 53,
+   "new_whole": 16
+  }
+ },
+ "qwen3-1.7b-instruct": {
+  "zero": {
+   "c2w_single": 0.3244,
+   "c2w_strict": 0.35508406725380304,
+   "n_both": 2498,
+   "new_mixed": 171,
+   "new_whole": 716
+  },
+  "mean of all prompt tokens (follow-up)": {
+   "c2w_single": 0.028,
+   "c2w_strict": 0.06405124099279423,
+   "n_both": 2498,
+   "new_mixed": 112,
+   "new_whole": 48
+  }
+ },
+ "gemma3-1b-instruct": {
+  "zero": {
+   "c2w_single": 0.4128,
+   "c2w_strict": 0.4329440193314539,
+   "n_both": 2483,
+   "new_mixed": 211,
+   "new_whole": 864
+  },
+  "mean of all prompt tokens (follow-up)": {
+   "c2w_single": 0.0892,
+   "c2w_strict": 0.12414897877452943,
+   "n_both": 2497,
+   "new_mixed": 169,
+   "new_whole": 141
+  }
+ },
+ "gemma3-4b-instruct": {
+  "zero": {
+   "c2w_single": 0.214,
+   "c2w_strict": 0.2552,
+   "n_both": 2500,
+   "new_mixed": 186,
+   "new_whole": 452
+  },
+  "mean of all prompt tokens (follow-up)": {
+   "c2w_single": 0.0116,
+   "c2w_strict": 0.0432,
+   "n_both": 2500,
+   "new_mixed": 90,
+   "new_whole": 18
+  }
+ },
+ "olmo2-1b-instruct": {
+  "zero": {
+   "c2w_single": 0.0804,
+   "c2w_strict": 0.10052062474969964,
+   "n_both": 2497,
+   "new_mixed": 57,
+   "new_whole": 194
+  },
+  "mean of all prompt tokens (follow-up)": {
+   "c2w_single": 0.0564,
+   "c2w_strict": 0.06925540432345877,
+   "n_both": 2498,
+   "new_mixed": 46,
+   "new_whole": 127
+  }
+ }
+}
